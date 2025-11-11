@@ -1,0 +1,78 @@
+/* ====== GENERAL STYLES ====== */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #2d2d2d;
+}
+
+/* ====== HEADER & NAVIGATION ====== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000; /* Purdue black */
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav a {
+  color: #CFB991; /* Purdue gold */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* ====== MAIN CONTENT ====== */
+main {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: #000000;
+  border-bottom: 2px solid #CFB991;
+  padding-bottom: 5px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+/* ====== BUTTON STYLE (OPTIONAL) ====== */
+button, .btn {
+  background-color: #CFB991;
+  color: #000;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background-color: #bca16e;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  background-color: #000000;
+  color: #CFB991;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
