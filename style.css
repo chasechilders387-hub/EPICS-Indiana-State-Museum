@@ -7,6 +7,12 @@ body {
   color: #2d2d2d;
 }
 
+/* ====== GOLD BANNER ABOVE HEADER ====== */
+.top-bar {
+  background-color: #CFB991; /* Purdue gold */
+  height: 8px;
+}
+
 /* ====== HEADER & NAVIGATION ====== */
 header {
   display: flex;
@@ -22,7 +28,7 @@ header {
 }
 
 nav a {
-  color: #CFB991; /* Purdue gold */
+  color: #CFB991;
   text-decoration: none;
   margin: 0 15px;
   font-weight: 600;
@@ -76,3 +82,4 @@ footer {
   font-size: 0.9rem;
   letter-spacing: 0.5px;
 }
+
